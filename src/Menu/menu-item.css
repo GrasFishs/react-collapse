@@ -1,0 +1,41 @@
+.menu{
+    transition: 0.5s all cubic-bezier(.96,-0.66,.07,1.51);
+    overflow: hidden;
+}
+
+div{
+    box-sizing: border-box;
+    max-width: 200px;
+}
+
+.parent,.child{
+    padding: 10px 0px 0px 10px;
+    margin-left: 10px;
+    transition: 0.2s all ease;
+    background: white;
+}
+
+.parent>div:first-child{
+    font-weight: 700;
+    position: relative;
+}
+
+.drop{
+    position: absolute;
+    right: 0%;
+    top: 10px;
+    transform-origin: 50%;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #333;
+}
+
+.drop.open{
+    transition: all cubic-bezier(.96,-0.66,.07,1.51) 0.5s;
+    transform: rotate(0deg);
+}
+
+.drop.close{
+    transition: all cubic-bezier(.96,-0.66,.07,1.51) 0.5s;
+    transform: rotate(180deg);
+}

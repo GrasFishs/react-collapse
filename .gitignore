@@ -1,0 +1,24 @@
+# Mac OS
+.DS_Store
+
+# IDE
+.idea
+.project
+
+
+# npm
+node_modules
+npm-debug.log
+yarn-error.log
+yarn.lock
+package-lock.json
+.yo-rc.json
+
+# folder
+dist
+lib
+tmp
+
+
+#缓存
+.cache

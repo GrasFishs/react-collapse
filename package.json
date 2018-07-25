@@ -1,0 +1,40 @@
+{
+  "name": "homework-20600",
+  "version": "1.0.0",
+  "description": "1. 克隆工程`https://rdc.hand-china.com/gitlab/train-front-end/weekly-homework-1.git`并切换分支，分支名为工号 \r 2. 使用webpack-dev-server构建开发环境\r 3. 获取data/tree.json的数据构建树，要求同example中图片展示的样子，点击三角能展开和收缩（图中节点只供参考，以实际数据为准）\r 9. 提交代码到gitlab",
+  "main": "src/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config webpack.config.js --hot--inline",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://rdc.hand-china.com/gitlab/train-front-end/weekly-homework-1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "react-hot-loader": "^4.3.3",
+    "react-motion": "^0.5.2"
+  }
+}
