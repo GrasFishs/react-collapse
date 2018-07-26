@@ -1,6 +1,11 @@
 # react-collapse
 一个基于`react`的菜单树组件。
 
+效果图
+<div align=center>
+<img src="./example/效果图.png"/>
+</div>
+
 1. `data`的`json`格式：
 ``` json
 [
