@@ -7,8 +7,7 @@
     { "name": "一层标题1", "id": 1, "parentId": -1 },
     { "name": "一层标题2", "id": 2, "parentId": -1 },
     { "name": "二层标题1", "id": 11, "parentId": 1 },
-    { "name": "三层标题1", "id": 111, "parentId": 11 },
-    // ...
+    { "name": "三层标题1", "id": 111, "parentId": 11 }
 ]
 ```
 
